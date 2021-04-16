@@ -1,4 +1,4 @@
-from telethon import Button, custom, events, functions
+from telethon import Button, custom, events, functions, TelegramClient
 import telethon, os, sys
 
 api_id = os.environ.get("API_KEY", None)
