@@ -1,0 +1,34 @@
+{
+  "name": "PM Bot_Rlx",
+  "description": "A forcesub pm bot In Telethon.",
+  "logo": "https://cdn.dribbble.com/users/6823/screenshots/2211533/ag-logo.png?compress=1&resize=800x600",
+  "keywords": [
+    "telegram",
+    "Pm",
+    "Forcesub",
+    "telegram-bot",
+    "Subs"
+  ],
+  "repository": "https://github.com/AmarnathCdj/legendary-dollop",
+  "website": "www.google.com",
+  "success_url": "t.me/lunabotsupport",
+  "env": {
+    "TOKEN": {
+      "description": "Your Bot Token.",
+      "value": ""
+    },
+    "API_KEY": {
+      "description": "Get this value from my.telegram.org! Please do not steal",
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "Get this value from my.telegram.org! Please do not steal",
+      "value": ""
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
